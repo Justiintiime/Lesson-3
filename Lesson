@@ -1,0 +1,13 @@
+public class MyProgram {
+    public double findAverage(double x, double y, double z) {
+        double g = x + y + z;
+        g = g / 3;
+        return g;
+    }
+
+    public static void main(String[] args) {
+        MyProgram obj = new MyProgram(); 
+        double result = obj.findAverage(5, 6, 7); 
+        System.out.println(result);
+    }
+}
